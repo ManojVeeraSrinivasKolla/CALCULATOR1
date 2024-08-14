@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="./style.css">
+</head> 
+<body>   
+    <div id="box">
+         <div id="heading">
+              <h2>CALCULATOR</h2>
+         </div>
+         <div id="input_box">
+               
+         </div>
+         <div id="line1">
+            <button type="submit" id="c" onclick="window.location.reload()">C</button>
+            <button type="submit" id="di" value=" / " onclick="dif()" >/</button>
+            <button type="submit" id="mul" value=" * " onclick="mulf()">*</button>
+         </div>
+         <div id="line2">
+            <button type="submit" id="sev" value="7" onclick="sevf()">7</button>
+               <button type="submit" id="eig" value="8" onclick="eigf()">8</button>
+               <button type="submit" id="nin" value="9" onclick="ninf()">9</button>
+               <button type="submit" id="sub" value=" - " onclick="subf()">-</button>
+         </div>
+         <div id="line3">
+            <button type="submit" id="fou" value="4" onclick="fouf()">4</button>
+               <button type="submit" id="fiv" value="5" onclick="fivf()">5</button>
+               <button type="submit" id="six" value="6" onclick="sixf()">6</button>
+               <button type="submit" id="add" value=" + " onclick="addf()">+</button>
+         </div>
+         <div id="line4">
+            <button type="submit" id="one" value="1" onclick="onef()">1</button>
+               <button type="submit"  id="two" value="2" onclick="twof()">2</button>
+               <button type="submit" id="three" value="3" onclick="thrf()">3</button>
+               <button type="submit" id="equ" onclick="calculate()">=</button>
+         </div>
+         <div id="line5">
+            <button type="submit" id="zer" value="0" onclick="zerf()">0</button>
+               <button type="submit" id="dot" value="." onclick="dotf()">.</button>
+               
+         </div>
+         
+    </div>
+    <script src="./design.js"></script>
+</body>
+</html>
